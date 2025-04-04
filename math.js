@@ -42,6 +42,7 @@ rl.question("Scegliere l'operazione da eseguire", (scelta) => {
     });
 });
 
+
 function sum(a, b) {
     return a + b;
 }
