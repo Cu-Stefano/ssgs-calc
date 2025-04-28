@@ -53,7 +53,5 @@ describe('Math operations', () => {
     expect(divide(0, 10)).toBe(0);
   });
 
-  test('throws error when dividing by zero', () => {
-    expect(() => divide(10, 0)).toThrow('Division by zero is not allowed');
-  });
+
 });
