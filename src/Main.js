@@ -1,6 +1,6 @@
-const readline = require('readline');
+const { sum, subtract, multiply, divide } = require('./math');
+const readline = require('readline'); 
 
-/* istanbul ignore next */
 function startCalculator() {
     const rl = readline.createInterface({
         input: process.stdin,
@@ -54,29 +54,6 @@ function startCalculator() {
     });
 }
 
-function sum(a, b) {
-    return a + b;
-}
-
-function subtract(a, b) {
-    return a - b;
-}
-
-function multiply(a, b) {
-    return a * b;
-}
-
-function divide(a, b) {
-    if (b === 0) {
-        throw new Error("Division by zero is not allowed");
-    }
-    return a / b;
-}
-
-module.exports = { sum, subtract, multiply, divide };
-
-
-/* istanbul ignore next */
 if (require.main === module) {
     startCalculator();
 }

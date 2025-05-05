@@ -1,16 +1,28 @@
 {
   "name": "ssgs-calc",
   "version": "1.0.0",
-  "description": "",
-  "main": "math.js",
+  "description": "A very simple calculator app",
+  "main": "src/Main.js",
   "scripts": {
-    "test": "npx jest --coverage"
+    "test": "jest --coverage --verbose"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["Calculator", "SSGS", "Testing"],
+  "author": "Cu-Stefano",
   "license": "ISC",
   "type": "commonjs",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "jest": "^29.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Cu-Stefano/ssgs-calc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Cu-Stefano/ssgs-calc/issues"
+  },
+  "homepage": "https://github.com/Cu-Stefano/ssgs-calc#readme",
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
