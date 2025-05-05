@@ -58,7 +58,7 @@ jobs:
         run: npm ci
 
       - name: Build static site
-        run: npm run build
+        run: npm run test
 
       - name: configure github pages
         uses: actions/configure-pages@v3
